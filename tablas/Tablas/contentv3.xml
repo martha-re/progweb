@@ -2070,9 +2070,9 @@
               <string role="key" value="anchor_names"></string>
               <list></list>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&amp;lt;table border=&quot;1&quot;&amp;gt;&lt;br /&gt;  &amp;lt;thead&amp;gt;&lt;br /&gt;    &amp;lt;tr&amp;gt;&lt;br /&gt;      &amp;lt;th&amp;gt; Trimestre &amp;lt;/th&amp;gt;&lt;br /&gt;      &amp;lt;th&amp;gt; Ingresos &amp;lt;/th&amp;gt;&lt;br /&gt;      &amp;lt;th&amp;gt; Costos &amp;lt;/th&amp;gt;&lt;br /&gt;    &amp;lt;/tr&amp;gt;&lt;br /&gt;  &amp;lt;/thead&amp;gt;&lt;br /&gt;  &amp;lt;tbody&amp;gt;&lt;br /&gt;    &amp;lt;tr&amp;gt;&lt;br /&gt;      &amp;lt;th&amp;gt; 1 &amp;lt;/th&amp;gt;&lt;br /&gt;      &amp;lt;td&amp;gt; $ 10 millones &amp;lt;/td&amp;gt;&lt;br /&gt;      &amp;lt;td&amp;gt; $ 7.5 millones &amp;lt;/td&amp;gt;&lt;br /&gt;    &amp;lt;/tr&amp;gt;&lt;br /&gt;    &amp;lt;tr&amp;gt;&lt;br /&gt;      &amp;lt;th&amp;gt; 2 &amp;lt;/th&amp;gt;&lt;br /&gt;      &amp;lt;td&amp;gt; $ 12 millones &amp;lt;/td&amp;gt;&lt;br /&gt;      &amp;lt;td&amp;gt; $ 5 millones &amp;lt;/td&amp;gt;&lt;br /&gt;    &amp;lt;/tr&amp;gt;&lt;br /&gt;  &amp;lt;/tbody&amp;gt;&lt;br /&gt;  &amp;lt;tfoot&amp;gt;&lt;br /&gt;    &amp;lt;tr&amp;gt;&lt;br /&gt;      &amp;lt;th&amp;gt; Total &amp;lt;/th&amp;gt;&lt;br /&gt;      &amp;lt;td&amp;gt; $ 22 millones &amp;lt;/td&amp;gt;&lt;br /&gt;      &amp;lt;td&amp;gt; $ 12.5 millones &amp;lt;/td&amp;gt;&lt;br /&gt;    &amp;lt;/tr&amp;gt;&lt;br /&gt;  &amp;lt;/tfoot&amp;gt;&lt;br /&gt;&amp;lt;/table&amp;gt;&lt;/p&gt;
-&lt;p&gt;Salida:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/Screen_Shot_2020-09-17_at_10.26.52.png&quot; alt=&quot;secciones de tabla&quot; width=&quot;450&quot; height=&quot;178&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&quot;color: #008000;&quot;&gt;border&lt;/span&gt;&lt;span style=&quot;color: #ff9900;&quot;&gt;=&quot;1&quot;&lt;/span&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;thead&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;th&amp;gt;&lt;/span&gt; Semestre &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;th&amp;gt;&lt;/span&gt; Nuevos Ingresos &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;th&amp;gt;&lt;/span&gt; Graduados &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;/thead&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;tbody&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;th&amp;gt;&lt;/span&gt; Ago-Dic 2019 &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt; 1000 &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt; 300 &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;th&amp;gt;&lt;/span&gt; Ene-Jun 2020 &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt; 400 &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt; 500 &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;/tbody&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;tfoot&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;th&amp;gt;&lt;/span&gt; Total &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt; 1,400 &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;td&amp;gt;&lt;/span&gt; 800 &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;/tfoot&amp;gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 16pt; color: #ff0000;&quot;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size: 16pt;&quot;&gt;Salida:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/Screen_Shot_2020-09-17_at_10.41.56.png&quot; alt=&quot;secciones de tabla&quot; width=&quot;450&quot; height=&quot;161&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
               <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2092,7 +2092,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="207"></int>
+                     <int value="208"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -2106,7 +2106,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="11_119_2.0"></unicode>
+                   <unicode value="11_119_2.1"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="42">
                     <dictionary>
@@ -2115,11 +2115,11 @@
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
-                     <string value="Screen_Shot_2020-09-17_at_10.26.52.png"></string>
+                     <string value="Screen_Shot_2020-09-17_at_10.41.56.png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/var/folders/_0/d3y9bh_s7p78bj191m7kb8g00000gn/T/tmpasxkRS.eXe/previews/allyourbase/Screen_Shot_2020-09-17_at_10.26.52.png"></string>
+                     <string value="/var/folders/_0/d3y9bh_s7p78bj191m7kb8g00000gn/T/tmpasxkRS.eXe/previews/allyourbase/Screen_Shot_2020-09-17_at_10.41.56.png"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="a133cadb53f5afcebf1636e228812b52"></string>
+                     <string value="0b2550be4a3dce2e1831e283a6cbaa28"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -2146,7 +2146,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="1"></int>
+              <int value="2"></int>
               <string role="key" value="parentNode"></string>
               <reference key="41"></reference>
              </dictionary>
@@ -2234,7 +2234,7 @@
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="4"></reference>
+  <reference key="41"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -3272,6 +3272,10 @@
    <list>
     <reference key="25"></reference>
    </list>
+   <string role="key" value="0b2550be4a3dce2e1831e283a6cbaa28"></string>
+   <list>
+    <reference key="42"></reference>
+   </list>
    <string role="key" value="199de1c313e87154957c3409da064a07"></string>
    <list>
     <reference key="5"></reference>
@@ -3279,10 +3283,6 @@
    <string role="key" value="66e037b84e980a8379b2dc01f7e7341e"></string>
    <list>
     <reference key="29"></reference>
-   </list>
-   <string role="key" value="a133cadb53f5afcebf1636e228812b52"></string>
-   <list>
-    <reference key="42"></reference>
    </list>
    <string role="key" value="dac049f30561449e8c279b88d60d88de"></string>
    <list>
