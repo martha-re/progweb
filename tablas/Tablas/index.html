@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Tablas</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Martha Rangel" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<meta name="description" content="Componentes de las tablas en html" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-single-page"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<header id="header">
+<div id="headerContent">
+<h1>Tablas</h1>
+</div>
+</header>
+<section id="main">
+<article class="node level-1-node" id="exe-node-0">
+<header class="nodeDecoration">
+<h1 id="exenode_0_Tablas" class="nodeTitle">Tablas</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id0-0">
+<div class="iDevice emphasis0" >
+<div id="ta0_108_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;"><img src="stock.jpg" alt="stock status" width="378" height="213" style="margin-right: 20px; margin-left: 20px; float: left;" />Hay muchos sitios web  que muestran información como precios de acciones, resultados deportivos, datos de facturas y más. Estos datos son de naturaleza tabular, lo que significa que una tabla suele ser la mejor manera de presentar dichos datos.</span></p>
+<p><span style="font-size: 16pt;"></span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-1">
+<header class="nodeDecoration">
+<h1 id="exenode_1_CreacindeTablas" class="nodeTitle">Creación de Tablas</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id1-1">
+<div class="iDevice emphasis0" >
+<div id="ta1_109_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Antes de mostrar datos, primero se debe crear la tabla que contendrá los datos usando el elemento &lt;table&gt;.</span></p>
+<p><span style="color: #ff0000; font-size: 16pt;">&lt;table&gt;</span></p>
+<p><span style="color: #ff0000; font-size: 16pt;">&lt;/table&gt;</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-2">
+<header class="nodeDecoration">
+<h1 id="exenode_2_Renglones" class="nodeTitle">Renglones</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id2-2">
+<div class="iDevice emphasis0" >
+<div id="ta2_110_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">El primer paso para ingresar datos en la tabla es agregar renglones o filas utilizando el elemento de renglón de tabla: &lt;tr&gt;.</span></p>
+<p><span style="color: #ff0000; font-size: 16pt;">&lt;tabla&gt;</span><br /><span style="color: #ff0000; font-size: 16pt;">  &lt;tr&gt;</span><br /><span style="color: #ff0000; font-size: 16pt;">  &lt;/tr&gt;</span><br /><span style="color: #ff0000; font-size: 16pt;">  &lt;tr&gt;</span><br /><span style="color: #ff0000; font-size: 16pt;">  &lt;/tr&gt;</span><br /><span style="color: #ff0000; font-size: 16pt;">&lt;/table&gt;</span><br /><span style="font-size: 16pt;">En el ejemplo anterior, se agregaron dos renglones a la tabla.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-3">
+<header class="nodeDecoration">
+<h1 id="exenode_3_Datos" class="nodeTitle">Datos</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id3-3">
+<div class="iDevice emphasis0" >
+<div id="ta3_111_2" class="block iDevice_content">
+<div class="exe-text"><p>Los renglones no son suficientes para agregar datos a una tabla. También se debe definir cada elemento de celda utilizando el elemento de datos de tabla: <span style="color: #ff0000;">&lt;td&gt;</span>.</p>
+<p><span style="color: #ff0000;">&lt;tabla&gt;</span><br /><span style="color: #ff0000;">  &lt;tr&gt;</span><br /><span style="color: #ff0000;">    &lt;td&gt; 20 &lt;/td&gt;</span><br /><span style="color: #ff0000;">    &lt;td&gt; 30 &lt;/td&gt;</span><br /><span style="color: #ff0000;">  &lt;/tr&gt;</span><br /><span style="color: #ff0000;">&lt;/table&gt;</span></p>
+<p>En el ejemplo anterior, se ingresaron dos datos (20 y 30) en el único renglón definido. Al agregar dos elementos de datos,  se crean dos celdas.</p>
+<p>La salida sera:</p>
+<p>20   30</p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-4">
+<header class="nodeDecoration">
+<h1 id="exenode_4_Encabezadosdetabla" class="nodeTitle">Encabezados de tabla</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id4-4">
+<div class="iDevice emphasis0" >
+<div id="ta4_112_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Los datos de la tabla no tienen sentido sin títulos para describir lo que representan.</span></p>
+<p><span style="font-size: 16pt;">Para agregar títulos a renglones y columnas, se usa el elemento de encabezado: &lt;th&gt;.</span></p>
+<p><span style="font-size: 16pt;">El elemento de encabezado de tabla se utiliza como un elemento de datos de tabla. Al igual que los datos de una tabla, el encabezado debe colocarse dentro de una fila de la tabla.</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;table&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;tr&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">    &lt;th&gt; &lt;/th&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;th</span> <span style="color: #008000;">scope</span> <span style="color: #ff9900;">= "col"</span><span style="color: #ff0000;">&gt;</span> Lunes <span style="color: #ff0000;">&lt;/th&gt;</span></span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;th</span> <span style="color: #008000;">scope</span> <span style="color: #ff9900;">= "col"</span><span style="color: #ff0000;">&gt;</span> Martes <span style="color: #ff0000;">&lt;/th&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;/tr&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;tr&gt;</span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;th</span> <span style="color: #008000;">scope</span> <span style="color: #ff9900;">= "row"</span><span style="color: #ff0000;">&gt;</span> Temperaturas <span style="color: #ff0000;">&lt;/th&gt;</span></span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;td&gt;</span> 73 <span style="color: #ff0000;">&lt;/td&gt;</span></span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;td&gt;</span> 81 <span style="color: #ff0000;">&lt;/td&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;/tr&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/table&gt;</span><br /><span style="font-size: 16pt;">¿Qué pasa en el código anterior?</span></p>
+<p><span style="font-size: 16pt;">Primero, se agregó un renglón para contener los tres encabezados: un encabezado en blanco, un encabezado de Lunes y un encabezado de Martes. El encabezado en blanco crea la celda adicional de la tabla necesaria para alinear los encabezados de la tabla correctamente con los datos a los que corresponden.</span></p>
+<p><span style="font-size: 16pt;">En el segundo renglón, se agregó un encabezado de tabla como título del renglón</span><span style="font-size: 16pt;">: Temperaturas.</span></p>
+<p><span style="font-size: 16pt;">La salida del código es:</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-16_at_21.53.39.png" alt="salida" width="301" height="98" /></span></p>
+<p><span style="font-size: 16pt;">El uso del atributo scope, puede tomar uno de dos valores:</span></p>
+<p><span style="font-size: 16pt;">row: para indicar que el encabezado es para un renglón.</span><br /><span style="font-size: 16pt;">col: para indicar que el encabezado es para una columna.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-5">
+<header class="nodeDecoration">
+<h1 id="exenode_5_Contornodetablas" class="nodeTitle">Contorno de tablas</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id5-5">
+<div class="iDevice emphasis0" >
+<div id="ta5_113_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Hasta ahora, las tablas que se han creado han sido un poco difíciles de leer porque no tienen contorno.</span></p>
+<p><span style="font-size: 16pt;">En versiones anteriores de HTML, para agregar un borde o contorno a una tabla se utilizaba el atributo border con un valor entero, que representaba el grosor del borde.</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;table <span style="color: #008000;">border</span> <span style="color: #ff9900;">= "1"</span>&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;tr&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;td&gt;</span> 20 <span style="color: #ff0000;">&lt;/td&gt;</span></span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;td&gt;</span> 30 <span style="color: #ff0000;">&lt;/td&gt;</span></span><br /><span style="font-size: 16pt;"> <span style="color: #ff0000;"> &lt;/tr&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/table&gt;</span><br /><span style="font-size: 16pt;">El código del ejemplo anterior está obsoleto, su objetivo es ilustrar las convenciones más antiguas que se pueden encontrar al leer el código de otros desarrolladores.</span></p>
+<p><span style="font-size: 16pt;">Es probable que el navegador aún interprete este código correctamente, pero eso no significa que deba usarse.</span></p>
+<p><span style="font-size: 16pt;">Se utiliza CSS para agregar estilo a los documentos HTML, ya que ayuda a separar la estructura de una página de su apariencia. </span></p>
+<p><span style="font-size: 16pt;">Se puede lograr el mismo efecto de borde de tabla usando CSS.</span></p>
+<p><span style="font-size: 16pt;">table, td {</span><br /><span style="font-size: 16pt;">border: 1px black solid;</span><br /><span style="font-size: 16pt;">}</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-6">
+<header class="nodeDecoration">
+<h1 id="exenode_6_Extensiondecolumnas" class="nodeTitle">Extension de columnas</h1>
+</header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id6-6">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">¿Qué sucede si la tabla contiene datos que abarcan varias columnas?</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta6_114_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Por ejemplo, un calendario podría tener eventos que abarquen varias horas o incluso varios días.</span></p>
+<p><span style="font-size: 16pt;">Los datos pueden abarcar columnas utilizando el atributo colspan. Los atributos aceptan un número entero (mayor o igual a 1) para indicar el número de columnas que abarca.</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;table&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;tr&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;th&gt;</span> Lunes <span style="color: #ff0000;">&lt;/th&gt;</span></span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;th&gt;</span> Martes <span style="color: #ff0000;">&lt;/th&gt;</span></span><br /><span style="font-size: 16pt;">   <span style="color: #ff0000;"> &lt;th&gt;</span> Miércoles <span style="color: #ff0000;">&lt;/th&gt;</span></span><br /><span style="font-size: 16pt;"> <span style="color: #ff0000;"> &lt;/tr&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;tr&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;td</span> <span style="color: #008000;">colspan</span> <span style="color: #ff9900;">= "2"</span><span style="color: #ff0000;">&gt;</span> Fuera de la ciudad <span style="color: #ff0000;">&lt;/td&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;td&gt;</span> De vuelta a la ciudad <span style="color: #ff0000;">&lt;/td&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;/tr&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/table&gt;</span><br /><span style="font-size: 16pt;">En el ejemplo anterior, Fuera de la ciudad abarca los encabezados de L</span><span style="font-size: 16pt;">unes y Martes utilizando el valor 2 (dos columnas). De vuelta a la ciudad aparece solo bajo el encabezado Miércoles.</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-16_at_22.26.00.png" alt="tabla" width="400" height="88" /></span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-7">
+<header class="nodeDecoration">
+<h1 id="exenode_7_Extensinderenglones" class="nodeTitle">Extensión de renglones</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id7-7">
+<div class="iDevice emphasis0" >
+<div id="ta7_115_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Los datos también pueden abarcar varios renglones utilizando el atributo rowspan, con un valor entero (mayor o igual que 1) para indicar el número de renglones que abarcará .</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;table&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;tr&gt;</span> &lt;! - Renglón 1 --&gt;</span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;th&gt; &lt;/th&gt;</span></span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;th <span style="color: #008000;">scope<span style="color: #ff9900;">="col"</span></span>&gt;</span> Lunes <span style="color: #ff0000;">&lt;/th&gt;</span></span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;th <span style="color: #008000;">scope</span><span style="color: #ff9900;">="col"</span>&gt;</span> Martes <span style="color: #ff0000;">&lt;/th&gt;</span></span><br /><span style="font-size: 16pt;">  <span style="color: #ff0000;">&lt;/tr&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;tr&gt;</span> &lt;! - Renglón 2 --&gt;</span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;th <span style="color: #008000;">scope</span><span style="color: #ff9900;">="row"</span>&gt;</span> Mañana<span style="color: #ff0000;"> &lt;/th&gt;</span></span><br /><span style="font-size: 16pt;">   <span style="color: #ff0000;"> &lt;td</span> rowspan = "2"<span style="color: #ff0000;">&gt;</span> Escuela <span style="color: #ff0000;">&lt;/td&gt;</span></span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;td</span> rowspan = "3"<span style="color: #ff0000;">&gt;</span> Descanso <span style="color: #ff0000;">&lt;/td&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;/tr&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;tr&gt;</span> &lt;! - Renglón 3 --&gt;</span><br /><span style="font-size: 16pt;">    <span style="color: #ff0000;">&lt;th <span style="color: #008000;">scope</span><span style="color: #ff9900;">="row"</span>&gt;</span> Tarde <span style="color: #ff0000;">&lt;/th&gt;</span></span><br /><span style="font-size: 16pt;"> <span style="color: #ff0000;"> &lt;/tr&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">&lt;tr&gt;</span> &lt;! - Renglón  4 -&gt;</span><br /><span style="font-size: 16pt;">  <span style="color: #ff0000;">&lt;th <span style="color: #008000;">scope</span><span style="color: #ff9900;">="row"</span>&gt;</span> Noche <span style="color: #ff0000;">&lt;/th&gt;</span></span><br /><span style="font-size: 16pt;"> <span style="color: #ff0000;"> &lt;td&gt;</span> Tarea <span style="color: #ff0000;">&lt;/td&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/tr&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/table&gt;</span><br /><span style="font-size: 16pt;"></span></p>
+<p><span style="font-size: 16pt;">En el ejemplo anterior, hay cuatro renglones:</span></p>
+<p><span style="font-size: 16pt;">El primer renglón contiene una celda vacía y los dos encabezados de columna.</span><br /><span style="font-size: 16pt;">El segundo renglón contiene el encabezado del renglón Mañana, junto con Escuela, que abarca dos renglones debajo de la columna Lunes. La entrada "Descanso" que abarca tres renglones debajo de la columna del Martes.</span><br /><span style="font-size: 16pt;">El tercer renglón sólo contiene el encabezado del renglón Tarde.</span><br /><span style="font-size: 16pt;">El cuarto renglón contiene la entrada Noche,  la entrada Tarea ya que "Descanso" se extiende tres renglones.</span></p>
+<p><span style="font-size: 16pt;">Salida:</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-17_at_10.03.46.png" alt="tablas" width="350" height="192" /></span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-8">
+<header class="nodeDecoration">
+<h1 id="exenode_8_Cuerpodelatabla" class="nodeTitle">Cuerpo de la tabla</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id8-8">
+<div class="iDevice emphasis0" >
+<div id="ta8_116_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Con el tiempo, una tabla puede crecer para contener una gran cantidad de datos y volverse muy larga. Cuando esto sucede, la tabla se puede seccionar para que sea más fácil de manejar.</span></p>
+<p><span style="font-size: 16pt;">Para seccionar una tabla se utiliza el elemento de cuerpo de tabla: &lt;tbody&gt;.</span></p>
+<p><span style="font-size: 16pt;">El elemento &lt;tbody&gt; debe contener todos los datos de la tabla, excluyendo los encabezados de la tabla.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-9">
+<header class="nodeDecoration">
+<h1 id="exenode_9_Encabezadodetabla" class="nodeTitle">Encabezado de tabla</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id9-9">
+<div class="iDevice emphasis0" >
+<div id="ta9_117_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Cuando se secciona el cuerpo de una tabla, también tiene sentido seccionar los encabezados de columna de la tabla con el elemento &lt;thead&gt;.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-10">
+<header class="nodeDecoration">
+<h1 id="exenode_10_Piedelatabla" class="nodeTitle">Pie de la tabla</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id10-10">
+<div class="iDevice emphasis0" >
+<div id="ta10_118_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">La parte inferior de una tabla larga también se puede seccionar usando el elemento &lt;tfoot&gt;.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-11">
+<header class="nodeDecoration">
+<h1 id="exenode_11_Ejemplo" class="nodeTitle">Ejemplo</h1>
+</header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id11-11">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h2 class="iDeviceTitle">Codigo HTML</h2></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta11_119_2" class="block iDevice_content">
+<div class="exe-text"><p>&lt;table border="1"&gt;<br />  &lt;thead&gt;<br />    &lt;tr&gt;<br />      &lt;th&gt; Trimestre &lt;/th&gt;<br />      &lt;th&gt; Ingresos &lt;/th&gt;<br />      &lt;th&gt; Costos &lt;/th&gt;<br />    &lt;/tr&gt;<br />  &lt;/thead&gt;<br />  &lt;tbody&gt;<br />    &lt;tr&gt;<br />      &lt;th&gt; 1 &lt;/th&gt;<br />      &lt;td&gt; $ 10 millones &lt;/td&gt;<br />      &lt;td&gt; $ 7.5 millones &lt;/td&gt;<br />    &lt;/tr&gt;<br />    &lt;tr&gt;<br />      &lt;th&gt; 2 &lt;/th&gt;<br />      &lt;td&gt; $ 12 millones &lt;/td&gt;<br />      &lt;td&gt; $ 5 millones &lt;/td&gt;<br />    &lt;/tr&gt;<br />  &lt;/tbody&gt;<br />  &lt;tfoot&gt;<br />    &lt;tr&gt;<br />      &lt;th&gt; Total &lt;/th&gt;<br />      &lt;td&gt; $ 22 millones &lt;/td&gt;<br />      &lt;td&gt; $ 12.5 millones &lt;/td&gt;<br />    &lt;/tr&gt;<br />  &lt;/tfoot&gt;<br />&lt;/table&gt;</p>
+<p>Salida:</p>
+<p><img src="Screen_Shot_2020-09-17_at_10.26.52.png" alt="secciones de tabla" width="450" height="178" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+
+
+</div>
+<script type="text/javascript" src="_cedec_js.js"></script></body>
+</html>
