@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Formularios</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Martha Rangel" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<meta name="description" content="Elementos para formularios" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-single-page"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<header id="header">
+<div id="headerContent">
+<h1>Formularios</h1>
+</div>
+</header>
+<section id="main">
+<article class="node level-1-node" id="exe-node-0">
+<header class="nodeDecoration">
+<h1 id="exenode_0_Formularios" class="nodeTitle">Formularios</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id0-0">
+<div class="iDevice emphasis0" >
+<div id="ta0_108_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Los formularios son parte de la vida diaria. Cuando utilizamos un formulario físico en la vida real, escribimos información y se la damos a alguien para que la procese. </span></p>
+<p><span style="font-size: 16pt;"><img src="form1.jpeg" alt="form" width="289" height="175" style="float: right; margin-right: 20px; margin-left: 20px;" />Al igual que un formulario físico, un elemento HTML<span style="color: #ff0000;"> &lt;form&gt;</span> es responsable de recopilar información para enviar a otro lugar. Cada vez que navegamos por Internet entramos en contacto con formularios y es posible que ni siquiera nos demos cuenta. Es probable que si está escribiendo en un campo de texto o proporcionando una entrada, el campo en el que está escribiendo sea parte de un<span style="color: #ff0000;"> &lt;form&gt;</span>.</span></p>
+<p><span style="font-size: 16pt;">A continuación conocerá la estructura y sintaxis de un formulario y los muchos elementos que puede contener.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-1">
+<header class="nodeDecoration">
+<h1 id="exenode_1_Funcionamientodelosformularios" class="nodeTitle">Funcionamiento de los formularios</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id1-1">
+<div class="iDevice emphasis0" >
+<div id="ta1_109_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Se puede pensar en Internet como una red de computadoras que envían y reciben información. Las computadoras necesitan una solicitud HTTP para saber cómo comunicarse. La solicitud HTTP indica a la computadora receptora cómo manejar la información entrante. </span></p>
+<p><span style="font-size: 16pt;">El elemento &lt;form&gt; es una gran herramienta para recopilar información, pero aun es necesario enviar esa información a otro lugar para su procesamiento. Es necesario proporcionar el elemento &lt;form&gt; con la ubicación de donde va la información de &lt;form&gt; y qué solicitud HTTP realizar. Ejemplo:</span></p>
+<p><span style="font-size: 16pt;">&lt;form action = "/ejemplo.html" method = "POST"&gt;</span><br /><span style="font-size: 16pt;">&lt;/form&gt;</span></p>
+<p><br /><span style="font-size: 16pt;">En el ejemplo anterior, se crea el esqueleto de un &lt;form&gt; que enviará información a ejemplo.html como una solicitud POST:</span></p>
+<p><span style="font-size: 16pt;">El atributo de acción determina a dónde se envía la información.</span><br /><span style="font-size: 16pt;">Al atributo de método se le asigna un verbo HTTP que se incluye en la solicitud HTTP.</span><br /><span style="font-size: 16pt;"></span></p>
+<p><span style="font-size: 16pt;">Nota: los verbos HTTP como POST no necesitan estar en mayúscula para que la solicitud funcione, pero se hace por convención. </span></p>
+<p><span style="font-size: 16pt;">El elemento &lt;form&gt; puede contener elementos internos. Por ejemplo, un encabezado para que los usuarios sepan de qué se trata este &lt;form&gt;, un párrafo etc.</span></p>
+<p><span style="font-size: 16pt;">&lt;form action = "/ejemplo.html" method = "POST"&gt;</span><br /><span style="font-size: 16pt;">  &lt;h1&gt; Formulario de ejemplo &lt;/h1&gt;</span><br /><span style="font-size: 16pt;">  &lt;p&gt; A continuación aprenderemos acerca de los formularios &lt;/p&gt;</span><br /><span style="font-size: 16pt;">&lt;/form&gt;</span><br /><span style="font-size: 16pt;">El ejemplo anterior no recopila ninguna entrada de usuario.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-2">
+<header class="nodeDecoration">
+<h1 id="exenode_2_Capturadetexto" class="nodeTitle">Captura de texto</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id2-2">
+<div class="iDevice emphasis0" >
+<div id="ta2_110_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Para crear un campo de entrada en un formulario, es necesario un elemento <span style="color: #ff0000;">&lt;input&gt;</span>.</span></p>
+<p><span style="font-size: 16pt;">El elemento <span style="color: #ff0000;">&lt;input&gt;</span> tiene un atributo <span style="color: #ff0000;">type</span> que determina cómo se aprecia el campo en la página web y qué tipo de datos puede aceptar.</span></p>
+<p><span style="font-size: 16pt;">Uno de los valores para el atributo <span style="color: #ff0000;">type</span> es "text". Al crear un elemento <span style="color: #ff0000;">&lt;input&gt;</span> con type = "text",  se genera un campo de texto en el que los usuarios pueden escribir. </span></p>
+<p><span style="font-size: 16pt;">También es importante incluir un atributo de nombre para el <span style="color: #ff0000;">&lt;input&gt;;</span> sin el atributo de nombre, la información de <span style="color: #ff0000;">&lt;input&gt;</span> no se enviará cuando se envíe el formulario. </span></p>
+<p><span style="font-size: 16pt;">Ejemplo:</span></p>
+<p><span style="font-size: 16pt;"><span style="color: #ff0000;">&lt;form</span> action = "/ejemplo.html" method = "POST"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt;">  <span style="color: #ff0000;">&lt;input</span> type = "text" name = "primer-campo"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span></p>
+<p><span style="font-size: 16pt;">Salida:</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-17_at_18.18.03.png" alt="" title="300" width="340" height="70" /></span></p>
+<p><span style="font-size: 16pt;"></span><span style="font-size: 16pt;">Después de que los usuarios escriben en el elemento <span style="color: #ff0000;">&lt;input&gt;</span>, el valor del atributo value se convierte en lo que se escribe dentro del campo de texto. El valor del atributo value se junta con el valor del atributo de name y se envía como texto cuando se envía el formulario. Por ejemplo, si un usuario escribió "clase de programación" en el campo de texto creado por nuestro elemento <span style="color: #ff0000;">&lt;input&gt;</span>:</span></p>
+<p><span style="font-size: 16pt;">Cuando se envía el formulario, el texto: "primer-campo = clase de programación" se envía a /ejemplo.html ya que el valor del atributo name es "primer-campo" y el valor de value es "clase de programación".</span></p>
+<p><span style="font-size: 16pt;">También es posible asignar un valor predeterminado al atributo value para que los usuarios tengan un campo de texto precargado cuando vean por primera vez el formulario:</span></p>
+<p><span style="font-size: 16pt;"><span style="color: #ff0000;">&lt;form</span> action = "/ejemplo.html" method = "POST"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;input</span> type = "text" name = "primer-campo" value = "valor predeterminado"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span></p>
+<p><br /><span style="font-size: 16pt;">Salida:</span></p>
+<p><img src="Screen_Shot_2020-09-17_at_18.25.09.png" width="301" height="62" /></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-3">
+<header class="nodeDecoration">
+<h1 id="exenode_3_Etiquetas" class="nodeTitle">Etiquetas</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id3-3">
+<div class="iDevice emphasis0" >
+<div id="ta3_111_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">En la sección anterior, se creó un elemento <span style="color: #ff0000;">&lt;input&gt;</span> pero no se incluyó nada para explicar en qué se usará. Para que un usuario identifique correctamente un <span style="color: #ff0000;">&lt;input&gt;</span>, se utiliza el elemento <span style="color: #ff0000;">&lt;label&gt;</span> con el nombre apropiado.</span></p>
+<p><span style="font-size: 16pt;">El elemento <span style="color: #ff0000;">&lt;label&gt;</span> tiene una etiqueta de apertura y cierre y muestra texto escrito entre dichas etiquetas. Para asociar un<span style="color: #ff0000;"> &lt;label&gt;</span> y un <span style="color: #ff0000;">&lt;input&gt;</span>, el <span style="color: #ff0000;">&lt;input&gt;</span> necesita un atributo <span style="color: #ff0000;">id</span>. Luego se asocia el atributo <span style="color: #ff0000;">for</span> del elemento <span style="color: #ff0000;">&lt;label&gt;</span> con el valor del atributo<span style="color: #ff0000;"> id</span> de<span style="color: #ff0000;"> &lt;input&gt;</span>, como sigue:</span></p>
+<p><span style="font-size: 16pt;"><span style="color: #ff0000;">&lt;form</span> action = "/ejemplo.html" method = "POST"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "respuesta_pasatiempo"<span style="color: #ff0000;">&gt;</span> ¿Cuál es tu pasatiempo favorito? <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;br&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;input</span> type = "text" name = "pasatiempo" id = "respuesta_pasatiempo"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span></p>
+<p><br /><span style="font-size: 16pt;">Salida:</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-17_at_18.36.01.png" width="380" height="84" /></span></p>
+<p><span style="font-size: 16pt;">Otro beneficio de usar el elemento &lt;label&gt; es que cuando se hace clic en este elemento, el <span style="color: #ff0000;">&lt;input&gt;</span> correspondiente se resalta/selecciona.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-4">
+<header class="nodeDecoration">
+<h1 id="exenode_4_Capturadecontraseas" class="nodeTitle">Captura de contraseñas</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id4-4">
+<div class="iDevice emphasis0" >
+<div id="ta4_112_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Imagine todas esas veces que ha sido necesario escribir información confidencial, como una contraseña o un PIN, en un formulario. Para estos casos se utiliza el atributo <span style="color: #ff0000;">type</span> = "password" en <span style="color: #ff0000;">&lt;input&gt;.</span></span></p>
+<p><span style="font-size: 16pt;">Un elemento <span style="color: #ff0000;">&lt;input</span> type = "password"<span style="color: #ff0000;">&gt;</span> reemplaza el texto ingresado con otro carácter como un asterisco (*) o un punto (•). Ejemplo</span><span style="font-size: 16pt;">:</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;form&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "clave"<span style="color: #ff0000;">&gt;</span> Contraseña: <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;input</span> type = "password" id = "clave" name = "clave"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span></p>
+<p><br /><span style="font-size: 16pt;">Salida:</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-17_at_18.48.32.png" alt="" width="401" height="59" /></span></p>
+<p><span style="font-size: 16pt;">Aunque el campo de la contraseña oculta el texto de la contraseña, cuando se envía el formulario, se envía el valor del texto. Esto es, si se escribe "claveSecreta" en el campo contraseña, se envía "clave = claveSecreta" junto con la otra información en el formulario.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-5">
+<header class="nodeDecoration">
+<h1 id="exenode_5_EntradasNumricas" class="nodeTitle">Entradas Numéricas</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id5-5">
+<div class="iDevice emphasis0" >
+<div id="ta5_113_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Para configurar la entrada para que sea numérica, se utiliza <span style="color: #ff0000;">type</span> = <span style="color: #ff0000;">"number"</span>, con esto se restringe la entrada a solo números (y algunos caracteres especiales como -, + y .). También se puede proporcionar un atributo de incremento/decremento (<span style="color: #ff0000;">step</span>), que crea flechas dentro del campo de entrada para aumentar o disminuir el valor de <span style="color: #ff0000;">value</span> de acuerdo a lo que se establezca en step. Ejemplo:</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;form&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "semestre"<span style="color: #ff0000;">&gt;</span> Semestre cursado: <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;input</span> id = "semestre" name = "semestre" type = "number" step = "1"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span><br /><span style="font-size: 16pt;"></span></p>
+<p><span style="font-size: 16pt;">Salida:</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-17_at_19.01.04.png" alt="" width="463" height="60" /></span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-6">
+<header class="nodeDecoration">
+<h1 id="exenode_6_Rangos" class="nodeTitle">Rangos</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id6-6">
+<div class="iDevice emphasis0" >
+<div id="ta6_114_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Usar un<span style="color: #ff0000;"> &lt;input type = "number"&gt;</span> esta bien,  si se desea permitir que los usuarios ingresen cualquier número. Pero, si es necesario limitar la entrada de los usuarios, entonces el tipo a utilizar es "<span style="color: #ff0000;">range</span>",  que crea un control deslizable.</span></p>
+<p><span style="font-size: 16pt;">Para establecer los valores mínimo y máximo del control deslizable, se asignan valores a los atributos <span style="color: #ff0000;">min</span> y <span style="color: #ff0000;">max</span> de <span style="color: #ff0000;">&lt;input&gt;</span>. También se puede controlar el funcionamiento del control deslizable asignando un valor al atributo <span style="color: #ff0000;">step</span>. Ejemplo:</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;form&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "volumen"<span style="color: #ff0000;">&gt;</span> Control de volumen<span style="color: #ff0000;"> &lt;/label&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;input</span> id = "volumen" name = "volumen" type = "range" min = "0" max = "100" step = "1"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span></p>
+<p><span style="font-size: 16pt;">Salida:</span></p>
+<p><img src="Screen_Shot_2020-09-17_at_19.20.18.png" alt="" width="454" height="62" /></p>
+<p><span style="font-size: 16pt;">En el ejemplo anterior, cada vez que el control deslizable se mueve en uno, el valor del atributo de value de &lt;input&gt; cambia.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-7">
+<header class="nodeDecoration">
+<h1 id="exenode_7_Cajasdeverificacin" class="nodeTitle">Cajas de verificación</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id7-7">
+<div class="iDevice emphasis0" >
+<div id="ta7_115_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Para casillas de verificación se utiliza el elemento <span style="color: #ff0000;">&lt;input&gt;</span> con <span style="color: #ff0000;">type = "checkbox"</span>. Ejemplo:</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;form&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;p&gt;</span> Elija los ingredientes de su pizza: <span style="color: #ff0000;">&lt;/p&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "queso"<span style="color: #ff0000;">&gt;</span> Queso extra <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;input</span> id = "queso" name = "ingrediente" type = "checkbox" value = "queso"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;br&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "pepperoni"<span style="color: #ff0000;">&gt;</span> Pepperoni <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;input</span> id = "pepperoni" name = "ingrediente" type = "checkbox" value = "pepperoni"&gt;</span><br /><span style="font-size: 16pt;"> <span style="color: #ff0000;"> &lt;br&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "carne"<span style="color: #ff0000;">&gt;</span> Carne <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;input</span> id = "carne" name = "ingrediente" type = "checkbox" value = "carne"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span></p>
+<p><span style="font-size: 16pt;">Salida:</span></p>
+<p><img src="Screen_Shot_2020-09-18_at_12.41.30.png" width="300" height="146" /></p>
+<p><span style="font-size: 16pt;">En el ejemplo proporcionado </span><span style="font-size: 16pt;">hay valores asignados al atributo de value de las casillas de verificación. Estos valores no son visibles en el formulario en sí, por eso es importante que usemos una &lt;label&gt; asociada para identificar la casilla de verificación.</span><br /><span style="font-size: 16pt;">Cada <span style="color: #ff0000;">&lt;input&gt;</span> tiene el mismo valor para el atributo de name. El uso del mismo nombre para cada casilla de verificación agrupa los &lt;input&gt; 's. Sin embargo, cada<span style="color: #ff0000;"> &lt;input&gt;</span> tiene una identificación única que se asocia con una <span style="color: #ff0000;">&lt;label&gt;</span>.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-8">
+<header class="nodeDecoration">
+<h1 id="exenode_8_Botonesdeopcin" class="nodeTitle">Botones de opción</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id8-8">
+<div class="iDevice emphasis0" >
+<div id="ta8_116_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Las casillas de verificación funcionan bien cuando se desea presentar a los usuarios varias opciones y permitirles elegir una o más de las opciones. Sin embargo, hay casos en los que se presentan varias opciones y solo se quiere permitir una selección, como preguntar a los usuarios si están de acuerdo o en desacuerdo con los términos y condiciones. Ejemplo:</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;form&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;p&gt;</span> ¿Cuánto es 1 + 1? <span style="color: #ff0000;">&lt;/p&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;input</span> type = "radio" id = "dos" name = "respuesta" value = "2"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "dos"&gt; 2 <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;br&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;input</span> type = "radio" id = "once" name = "respuesta" value = "11"&gt;</span><br /><span style="font-size: 16pt;"> <span style="color: #ff0000;"> &lt;label <span style="color: #000000;">for</span></span> = "once"<span style="color: #ff0000;">&gt;</span> 11 <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span></p>
+<p><br /><span style="font-size: 16pt;">Salida:</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-17_at_21.17.33.png" alt="" width="200" height="135" /></span></p>
+<p><span style="font-size: 16pt;">Observe en el fragmento de código que los botones de opción (al igual que las casillas de verificación) no muestran su valor. Tenemos una &lt;etiqueta&gt; asociada para representar el valor del botón de radio. Para agrupar botones de radio, les asignamos el mismo nombre y solo se puede seleccionar un botón de radio de ese grupo.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-9">
+<header class="nodeDecoration">
+<h1 id="exenode_9_Listadesplegable" class="nodeTitle">Lista desplegable</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id9-9">
+<div class="iDevice emphasis0" >
+<div id="ta9_117_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Cuando se tiene una lista completa de opciones, la</span><span style="font-size: 16pt;"> alternativa es utilizar una lista desplegable para permitir que los usuarios elijan una opción de una lista organizada. Ejemplo:</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;form&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "comida"<span style="color: #ff0000;">&gt;</span> ¿Qué hay para comer? <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;select</span> id = "comida" name = "comida"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;option</span> value = "pizza"<span style="color: #ff0000;">&gt;</span> Pizza <span style="color: #ff0000;">&lt;/option&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;option</span> value = "sandwich"<span style="color: #ff0000;">&gt;</span> Sandwich <span style="color: #ff0000;">&lt;/option&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;option</span> value = "ensalada"<span style="color: #ff0000;">&gt;</span> Ensalada <span style="color: #ff0000;">&lt;/option&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;option</span> value = "ramen"<span style="color: #ff0000;">&gt;</span> Ramen <span style="color: #ff0000;">&lt;/option&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;option</span> value = "tacos"<span style="color: #ff0000;">&gt;</span> Tacos <span style="color: #ff0000;">&lt;/option&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;/select&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span></p>
+<p><span style="font-size: 16pt;">Salida:</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-17_at_21.27.53.png" alt="" width="399" height="164" /></span></p>
+<p><span style="font-size: 16pt;">En el código se está usando el elemento <span style="color: #ff0000;">&lt;select&gt;</span> para crear la lista desplegable. </span></p>
+<p><span style="font-size: 16pt;">Para completar la lista desplegable, se agregan varios elementos <span style="color: #ff0000;">&lt;option&gt;</span>, cada uno con un atributo <span style="color: #ff0000;">value</span>. De forma predeterminada, solo se puede seleccionar una de estas opciones. </span><span style="font-size: 16pt;">Cuando se envíe el formulario, la información de este campo de entrada se enviará utilizando el nombre del <span style="color: #ff0000;">&lt;select&gt;</span> y el valor de <span style="color: #ff0000;">&lt;option&gt;</span> elegida. Por ejemplo, si un usuario selecciona Pizza de la lista desplegable, la información se enviará como <span style="color: #ff0000;">"comida = pizza"</span>.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-10">
+<header class="nodeDecoration">
+<h1 id="exenode_10_Listadedatos" class="nodeTitle">Lista de datos</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id10-10">
+<div class="iDevice emphasis0" >
+<div id="ta10_118_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Cuando una lista desplegable tiene muchas opciones, puede ser tedioso para los usuarios desplazarse por toda la lista para localizar una opción. Para estos casos el elemento <span style="color: #ff0000;">&lt;datalist&gt;</span> resulta útil.</span></p>
+<p><span style="font-size: 16pt;">El elemento <span style="color: #ff0000;">&lt;datalist&gt;</span> se usa junto con un elemento <span style="color: #ff0000;">&lt;input type = "text"&gt;</span>. <span style="color: #ff0000;">&lt;input&gt;</span> crea un campo de texto en el que los usuarios pueden escribir y filtrar opciones del <span style="color: #ff0000;">&lt;datalist&gt;</span>. Ejemplo:</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;form&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "ciudad"<span style="color: #ff0000;">&gt;</span> ¿Ciudad ideal para visitar? <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt;"> <span style="color: #ff0000;"> &lt;input</span> type = "text" <strong>list</strong> = "ciudades" id = "ciudad" name = "ciudad"<span style="color: #ff0000;">&gt;</span></span></p>
+<p><span style="font-size: 16pt;">  <span style="color: #ff0000;">&lt;datalist</span> id = "ciudades"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt;">   <span style="color: #ff0000;"> &lt;option</span> value = "Nueva York"<span style="color: #ff0000;">&gt; &lt;/option&gt;</span></span><br /><span style="font-size: 16pt;">   <span style="color: #ff0000;"> &lt;option</span> value = "Tokio"<span style="color: #ff0000;">&gt; &lt;/option&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;option</span> value = "Barcelona"<span style="color: #ff0000;">&gt; &lt;/option&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;option</span> value = "Ciudad de México"<span style="color: #ff0000;">&gt; &lt;/option&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;option</span> value = "Paris"<span style="color: #ff0000;">&gt; &lt;/option&gt;</span></span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">    &lt;option</span> value = "Otro"<span style="color: #ff0000;">&gt; &lt;/option&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;/datalist&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span><br /><span style="font-size: 16pt;">Observe que  <span style="color: #ff0000;">&lt;input&gt;</span> tiene un atributo list, cuyo valor está asociado al <span style="color: #ff0000;">&lt;datalist&gt;</span> a través del atributo <span style="color: #ff0000;">id</span>.</span></p>
+<p><span style="font-size: 16pt;">Salida:</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-18_at_12.10.36.png" width="400" height="205" /></span></p>
+<p><span style="font-size: 16pt;">Al hacer clic en el campo de entrada se muestra una lista desplegable.</span></p>
+<p><span style="font-size: 16pt;">Aunque <span style="color: #ff0000;">&lt;select&gt;</span> y <span style="color: #ff0000;">&lt;datalist&gt;</span> comparten algunas similitudes, existen algunas diferencias importantes. En el elemento <span style="color: #ff0000;">&lt;input&gt;</span> asociado, los usuarios pueden escribir en el campo de entrada para buscar una opción en particular. Si ninguna de las <span style="color: #ff0000;">&lt;option&gt;</span> coincide, el usuario aún puede usar lo que escribió. Cuando se envía el formulario, el valor de name de<span style="color: #ff0000;"> &lt;input&gt;</span> y el valor de la opción seleccionada, o lo que el usuario ingresó , se envía como un par.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-11">
+<header class="nodeDecoration">
+<h1 id="exenode_11_readetexto" class="nodeTitle">Área de texto</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id11-11">
+<div class="iDevice emphasis0" >
+<div id="ta11_119_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">Un elemento <span style="color: #ff0000;">&lt;input&gt;</span> con <span style="color: #ff0000;">type = "text"</span> crea un campo de entrada de un solo renglón para que los usuarios ingresen información. Pero hay casos en los que los usuarios necesitan escribir más, como un comentario. Para estas situaciones se utiliza <span style="color: #ff0000;">&lt;textarea&gt;.</span></span></p>
+<p><span style="font-size: 16pt;">El elemento <span style="color: #ff0000;">&lt;textarea&gt;</span> crea campos de texto más grandes. Se puede hacer uso de los atributos <span style="color: #ff0000;">rows</span> y <span style="color: #ff0000;">cols</span> para determinar el tamaño del campo. Ejemplo:</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;form&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;label</span> for = "blog"<span style="color: #ff0000;">&gt;</span> Nueva publicación de blog: <span style="color: #ff0000;">&lt;/label&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;hr&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">  &lt;textarea</span> id = "blog" name = "blog" rows = "5" cols = "30"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">  &lt;/textarea&gt;</span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span><br /><span style="font-size: 16pt;"></span></p>
+<p><span style="font-size: 16pt;">Salida:</span></p>
+<p><img src="Screen_Shot_2020-09-18_at_12.16.18.png" alt="" width="400" height="205" /><br /><span style="font-size: 16pt;"></span><span style="font-size: 16pt;">Al enviar el formulario, el valor de <span style="color: #ff0000;">&lt;textarea&gt;</span> es el texto escrito dentro del cuadro. </span></p>
+<p><span style="font-size: 16pt;">Si se desea agregar un valor predeterminado al texto de <span style="color: #ff0000;">&lt;textarea&gt;</span> se debe hacer de la siguiente manera:</span></p>
+<p><span style="font-size: 16pt;"><span style="color: #ff0000;">&lt;textarea&gt;</span> Texto predeterminado <span style="color: #ff0000;">&lt;/textarea&gt;</span></span><br /><br /></p></div>
+</div>
+</div>
+</article>
+</article>
+<article class="node level-2-node" id="exe-node-12">
+<header class="nodeDecoration">
+<h1 id="exenode_12_Envodeformulario" class="nodeTitle">Envío de formulario</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id12-12">
+<div class="iDevice emphasis0" >
+<div id="ta12_120_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 16pt;">El propósito de un formulario es recopilar información que se enviará para su procesamiento. Esa es la función del <span style="color: #ff0000;">botón de envío</span>: los usuarios hacen clic en él cuando terminan de completar la información del formulario. </span></p>
+<p><span style="font-size: 16pt;">Para crear un botón de envío en un formulario se usa el elemento <span style="color: #ff0000;">&lt;input&gt;</span> con el atributo <span style="color: #ff0000;">type="submit"</span>, y en el atributo <span style="color: #ff0000;">value</span> se coloca el texto que aparecerá en el botón. Por ejemplo:</span></p>
+<p><span style="font-size: 16pt; color: #ff0000;">&lt;form&gt;</span><br /><span style="font-size: 16pt;"><span style="color: #ff0000;">&lt;input</span> type = "submit" value = "Enviar"<span style="color: #ff0000;">&gt;</span></span><br /><span style="font-size: 16pt; color: #ff0000;">&lt;/form&gt;</span><br /><span style="font-size: 16pt;"></span></p>
+<p><span style="font-size: 16pt;">Salida:</span></p>
+<p><span style="font-size: 16pt;"><img src="Screen_Shot_2020-09-18_at_12.21.48.png" alt="" width="80" height="38" /></span></p>
+<p><span style="font-size: 16pt;">Si no se utiliza el atributo <span style="color: #ff0000;">value</span>, el texto del botón será el configurado por default según el navegador utilizado.</span></p></div>
+</div>
+</div>
+</article>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+
+
+</div>
+<script type="text/javascript" src="_cedec_js.js"></script></body>
+</html>
