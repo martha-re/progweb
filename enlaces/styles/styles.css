@@ -1,0 +1,19 @@
+h1{
+	color:red;
+	font-size: 30px;
+}
+.verde{
+	color:green;
+}
+.grande{
+	font-size: 20px;
+}
+.peque{
+	font-size: 15px;
+}
+#seccion_dentro {
+	color:navy;
+}
+.contorno{
+	border:2px dotted #adfeda;
+}

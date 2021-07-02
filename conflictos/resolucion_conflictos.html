@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resolucion de conflictos - Precedencia de Origen</title>
+	<link href="styles/estilos.css" type="text/css" rel="stylesheet">
+	<style>
+		p {
+			color : red !important;
+			font-family: Verdana;
+		}
+	</style>
+</head>
+<body>
+	<p>Este es un parrafo que sobreescribe el color rojo declarado en el archivo estilos.css y utiliza la regla declarada en la etiqueta style.</p>
+    <p style="color: blue;font-family: Curier;">Este es un parrafo que sobreescribe el color rojo declarado en el archivo estilos.css y la regla declarada en la etiqueta style, utilizando la declaracion del estilo en linea</p>
+    <div>
+    	Cuando hay conflicto: "La ultima declaracion gana"<br>
+    	Si no hay conflicto: "Las declaraciones se mezclan"
+    </div>
+</body>
+</html>

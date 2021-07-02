@@ -1,0 +1,132 @@
+<!DOCTYPE html> 
+<html lang="es">
+  <head>
+    <title>Practicando con float</title>
+      <meta charset="utf-8">
+      <style type="text/css">
+
+        body {
+  background-color: #4ABDAC;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
+  margin: 3px;
+}
+header {
+  background-color: #F7B733;
+  height: 75px;
+}
+
+h1 {
+  padding: 15px;
+  float: left;
+  margin: auto;
+}
+h2 {
+  float: right;
+  padding-right: 20px;
+}
+#navegacion {
+  height: 30px;
+  width: 30%;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navegacion li:hover {
+  opacity: 0.4;
+  color: black;
+  background-color: white;
+}
+
+#contenido {
+  overflow: hidden;
+  background-color: #DFDCE3;
+  width: 50%;
+  margin: 0 auto;
+  clear: both;
+}
+div {
+  background-color: #FC4A1A;
+  width: 250px;
+  height: 150px;
+  padding: 10px;
+  margin: 20px;
+  overflow: scroll;
+}
+
+li {
+  float: left;
+  list-style: none;
+  padding: 10px;
+  background-color: peru;
+}
+#arribaIzquierda {
+  float: left;
+  margin-top: 0px;
+}
+#arribaDerecha {
+  float: right;
+  margin-top: 0px;
+}
+
+#abajoDerecha {
+  float: right;
+  margin-bottom: 0px;
+}
+
+#abajoIzquierda {
+  float: left;
+  margin-bottom: 0px;
+}
+      </style>
+  </head>
+  <body>
+    <header>
+      <h2>subtitulo de la pagina</h2>
+      <h1>Titulo de la pagina</h1>
+    </header>
+    <section id="navegacion">
+      <ul>
+        <li>enlace1</li>
+        <li>enlace2</li>
+        <li>enlace3</li>
+        <li>enlace4</li>
+      </ul>
+    </section>
+    <section id="contenido">
+      <div id="arribaDerecha">
+        ARRIBA DERECHA sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div id="arribaIzquierda">
+        ARRIBA IZQUIERDAr sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div id="abajoDerecha">
+        ABAJO DERECHA amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div id="abajoIzquierda">
+        ABAJO IZQUIERDA sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+.box1 {
+	width: 200px;
+	height: 100px;
+	background: green;
+}
+
+.box2 {
+	width: 200px;
+	height: 100px;
+	background: blue;
+}
+.box3 {
+	width: 200px;
+	height: 100px;
+	background: red;
+	position:relative;
+	left: 50px;
+	top: 20px;
+}
+.box4 {
+	width: 200px;
+	height: 100px;
+	background: yellow;
+	position:absolute;
+	left: 50px;
+	top: 20px;
+}
+.box5 {
+	width: 200px;
+	height: 100px;
+	background: pink;
+	position:fixed;
+	left: 50px;
+	top: 20px;
+}
+.box6 {
+	width: 200px;
+	height: 100px;
+	background: green;
+	position: relative;
+	z-index: 2;
+}
+.box7 {
+	width: 200px;
+	height: 100px;
+	background: pink;
+	position:absolute;
+	left: 50px;
+	top: 20px;
+	z-index: 1;
+}
+.box8 {
+	width: 200px;
+	height: 100px;
+	background: green;
+}
+.box9 {
+	width: 200px;
+	height: 100px;
+	background: red;
+	float: right;
+}
+h1{
+	display: inline;
+}
+strong {
+	display: block;
+}
+.rectangulo {
+	display: inline-block;
+	background: aquamarine;
+	width: 150px;
+	height: 60px;
+}
+.contenedora{
+    border:1px solid black;
+    padding:10px;
+}
+.izquierda {
+    border: 1px solid black;
+    clear: left;
+}
+.negra {
+    float: left;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    width: 20%;
+}
+.roja {
+    float: left;
+    margin: 0;
+    background-color: red;
+    width:20%;
+}
+.derecha {
+    border: 1px solid black;
+    clear: right;
+}
+.negra2 {
+    float: right;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    width: 20%;
+}
+.roja2 {
+    float: right;
+    margin: 0;
+    background-color: red;
+    width:20%;
+}
+.ambas {
+    border: 1px solid black;
+    clear: both;
+}
+.negra3 {
+    float: left;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    width: 20%;
+}
+.roja3 {
+    float: right;
+    margin: 0;
+    background-color: red;
+    width:20%;
+}
+p {
+    width: 50%;
+}
+h2 {
+	color: rgb (23, 45, 23);
+}
+

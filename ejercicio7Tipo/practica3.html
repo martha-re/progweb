@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora Simple</title>
+    </head>
+    <body>
+        <p>Primer numero: 
+            <input type="number" id="num1" min="0" max="100" value="0">
+        </p>
+        <p>Segundo numero: 
+            <input type="number" id="num2" min="0" max="100" value="0">
+        </p>
+        <input type="button" id="multiply" value="Multiplicar">
+        <input type="button" id="divide" value="Dividir">
+        <input type="button" id="limpiar" value="Limpiar Operaciones">
+        <p id="result"></p>
+        <script>
+            let num1 = document.getElementById("num1");
+            let num2 = document.getElementById("num2");
+            let result = document.getElementById("result");
+            document.getElementById("multiply").addEventListener("click", function() {
+                result.innerHTML = num1.value+" * "+num2.value +" = "+ num1.value* num2.value+ "<br>"+ result.innerHTML;
+            });
+            document.getElementById("divide").addEventListener("click", function() {
+                result.innerHTML = num1.value+" / "+num2.value +" = "+ num1.value* num2.value+ "<br>"+ result.innerHTML;
+            });
+            document.getElementById("limpiar").addEventListener("click", function() {
+                result.innerHTML = "";
+            });
+        </script>
+    </body>
+</html>

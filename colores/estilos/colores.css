@@ -1,0 +1,32 @@
+html {
+  margin: 0;
+  height: 100%;
+  background-color: rgba(0,255,0,0.1);
+}
+
+.contenedor {
+  position: relative;
+  left: 10px;
+  top: 20px;
+}
+
+.medio, .frente {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  left: 50px;
+  top: 50px;
+}
+
+body {
+  background-color: rgba(0, 255, 0,0.5);
+}
+
+.medio {
+  background-color: hsla(225, 100%, 25%,0.4);
+}
+
+.frente {
+  background-color: hsl(325, 50%, 50%,0.6);
+}

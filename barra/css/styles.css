@@ -1,0 +1,5 @@
+.row > div {
+     background-color: lightgray;
+     color: red;
+     border: 1px solid black;
+}
